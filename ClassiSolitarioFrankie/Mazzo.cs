@@ -75,7 +75,7 @@ namespace ClassiSolitarioFrankie
         {
             get
             {
-                if (_index >= _carte.Length) throw new Exception("mazzo completamente estratto");
+                if (_index >= _carte.Length) throw new ArgumentOutOfRangeException("mazzo completamente estratto");
                 Carta carta = _carte[_index];
                 _carte[_index] = null;
                 _index++;

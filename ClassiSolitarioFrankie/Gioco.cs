@@ -15,15 +15,13 @@ namespace ClassiSolitarioFrankie
         {
             MazzoIniziale = new Mazzo();
             MazzoIniziale.MescolaMazzo();
-            MazzoDeposito = new List<Carta>
-            {
-                MazzoIniziale.EstraiCarta
-            };
+            CartaInCima = MazzoIniziale.EstraiCarta;
+            MazzoDeposito = new List<Carta> { MazzoIniziale.EstraiCarta };
         }
 
         public List<Carta> MazzoDeposito
         {
-            get => default;
+            get { return _mazzoDeposito; }
             private set
             {
                 if (value == null) throw new ArgumentNullException();
@@ -33,7 +31,7 @@ namespace ClassiSolitarioFrankie
 
         public Mazzo MazzoIniziale
         {
-            get => default;
+            get { return _mazzoIniziale; }
             private set
             {
                 if (value == null) throw new ArgumentNullException();
@@ -43,7 +41,7 @@ namespace ClassiSolitarioFrankie
 
         public Carta CartaInCima
         {
-            get => default;
+            get { return _cartaInCima; }
             private set
             {
                 if (value == null) throw new ArgumentNullException();
@@ -53,18 +51,29 @@ namespace ClassiSolitarioFrankie
 
         public void GiraCarta()
         {
-            _mazzoDeposito.Add(_mazzoIniziale.EstraiCarta);
+            try 
+            {
+                _mazzoDeposito.Add(_mazzoIniziale.EstraiCarta);
+            }
+            catch (ArgumentOutOfRangeException)
+            {
+                return;
+            }
         }
 
         public bool GiocaCarta()
         {
-            Carta c = _mazzoDeposito[_mazzoDeposito.Count-1];
-            if (c.SemeCarta==_cartaInCima.SemeCarta||(c.Punteggio<=_cartaInCima.Punteggio+1&&c.Punteggio>=_cartaInCima.Punteggio-1)||c.Punteggio==1)
+            try
             {
-                _mazzoDeposito.RemoveAt(_mazzoDeposito.Count - 1);
-                _cartaInCima = c;
-                return true;
+                Carta c = _mazzoDeposito[_mazzoDeposito.Count - 1];
+                if (c.SemeCarta == _cartaInCima.SemeCarta || (c.Punteggio <= _cartaInCima.Punteggio + 1 && c.Punteggio >= _cartaInCima.Punteggio - 1) || c.Punteggio == 1)
+                {
+                    _mazzoDeposito.RemoveAt(_mazzoDeposito.Count - 1);
+                    _cartaInCima = c;
+                    return true;
+                }
             }
+            catch (ArgumentOutOfRangeException) { }
             return false;
         }
     }

@@ -9,7 +9,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="dwayne.png" />
+    <None Remove="VisualStudio.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\ClassiSolitarioFrankie\ClassiSolitarioFrankie.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="dwayne.png" />
+    <Resource Include="VisualStudio.png" />
   </ItemGroup>
 
 </Project>

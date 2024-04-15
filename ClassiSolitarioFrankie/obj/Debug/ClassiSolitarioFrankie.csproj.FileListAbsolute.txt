@@ -1,0 +1,6 @@
+C:\Users\aless\OneDrive\Desktop\github\SOLITARIO-FRANKIE\ClassiSolitarioFrankie\bin\Debug\ClassiSolitarioFrankie.dll
+C:\Users\aless\OneDrive\Desktop\github\SOLITARIO-FRANKIE\ClassiSolitarioFrankie\bin\Debug\ClassiSolitarioFrankie.pdb
+C:\Users\aless\OneDrive\Desktop\github\SOLITARIO-FRANKIE\ClassiSolitarioFrankie\obj\Debug\ClassiSolitarioFrankie.csproj.AssemblyReference.cache
+C:\Users\aless\OneDrive\Desktop\github\SOLITARIO-FRANKIE\ClassiSolitarioFrankie\obj\Debug\ClassiSolitarioFrankie.csproj.CoreCompileInputs.cache
+C:\Users\aless\OneDrive\Desktop\github\SOLITARIO-FRANKIE\ClassiSolitarioFrankie\obj\Debug\ClassiSolitarioFrankie.dll
+C:\Users\aless\OneDrive\Desktop\github\SOLITARIO-FRANKIE\ClassiSolitarioFrankie\obj\Debug\ClassiSolitarioFrankie.pdb
