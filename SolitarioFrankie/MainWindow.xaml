@@ -7,10 +7,12 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="800" Width="450">
     <Grid>
-        <Image x:Name="imgCarta" Visibility="Visible" HorizontalAlignment="Left" Height="198" Margin="32,466,0,0" VerticalAlignment="Top" Width="146" Source="/VisualStudio.png"/>
-        <Image x:Name="imgCartaDeposito" Visibility="Visible" HorizontalAlignment="Left" Height="200" Margin="272,466,0,0" VerticalAlignment="Top" Width="145" Source="/dwayne.png"/>
-        <Image x:Name="imgCartaInCima" Height="220" Margin="152,119,152,445"/>
-        <Button x:Name="btnMazzoIniziale" Content="Button" Margin="32,466,272,119" Click="btnMazzoIniziale_Click" Opacity="0"/>
-        <Button x:Name="btnMazzoDeposito" Content="Button" Margin="272,466,32,119" Click="btnMazzoDeposito_Click" Opacity="0"/>
+        <Image x:Name="imgCartaInCima" Margin="152,130,152,0" Height="198" VerticalAlignment="Top" Width="128"/>
+        <Image x:Name="imgMazzoInizialeStatica" Margin="32,466,0,0" HorizontalAlignment="Left" Width="128" Height="198" VerticalAlignment="Top" Source="/CartaGirata.png"/>
+        <Image x:Name="imgMazzoDepositoStatica" HorizontalAlignment="Left" Height="198" Margin="290,466,0,0" VerticalAlignment="Top" Width="128"/>
+        <Image x:Name="imgCarta" Visibility="Visible" HorizontalAlignment="Left" Height="198" Margin="32,466,0,0" VerticalAlignment="Top" Width="128" Source="/CartaGirata.png"/>
+        <Image x:Name="imgCartaDeposito" Visibility="Visible" HorizontalAlignment="Left" Height="198" Margin="272,466,0,0" VerticalAlignment="Top" Width="128"/>
+        <Button x:Name="btnMazzoIniziale" Content="Button" Margin="32,466,290,120" Click="btnMazzoIniziale_Click" Opacity="0"/>
+        <Button x:Name="btnMazzoDeposito" Content="Button" Margin="290,466,32,120" Click="btnMazzoDeposito_Click" Opacity="0"/>
     </Grid>
 </Window>

@@ -21,10 +21,10 @@ namespace ClassiSolitarioFrankie
     }
     public enum Seme
     {
-        Denara = 1,
-        Bastoni,
+        Spade = 1,
+        Denara,
         Coppe,
-        Spade
+        Bastoni      
     }
     public class Carta
     {
@@ -56,24 +56,10 @@ namespace ClassiSolitarioFrankie
             }
         }
 
-        public int Punteggio
-        {
-            get
-            {
-                int punteggio = 0;
-                if (ValoreCarta == Valore.Fante) punteggio = 2;
-                else if (ValoreCarta == Valore.Cavallo) punteggio = 3;
-                else if (ValoreCarta == Valore.Re) punteggio = 4;
-                else if (ValoreCarta == Valore.Asso) punteggio = 11;
-                else if (ValoreCarta == Valore.Tre) punteggio = 10;
-
-                return punteggio;
-            }
-        }
 
         public override string ToString()
         {
-            string res = $"{ValoreCarta} di {SemeCarta}";
+            string res = $"{(int)ValoreCarta-1}{(int)SemeCarta-1}";
             return res;
         }
     }

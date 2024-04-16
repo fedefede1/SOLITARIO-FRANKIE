@@ -31,17 +31,34 @@ namespace SolitarioFrankie
             Timer.Interval = new TimeSpan(0, 0, 0, 0, 500);
             Timer.Tick += Timer_Tick;
             cartaDeposito = false;
+            InizializzaImmagini();
         }
 
         public void InizializzaImmagini()
         {
             imgCartaInCima.Source = new BitmapImage(new Uri($"{g.CartaInCima}.png", UriKind.Relative));
+            imgMazzoDepositoStatica.Source = new BitmapImage(new Uri($"{g.MazzoDeposito[0]}.png", UriKind.Relative));
         }
 
         private void btnMazzoIniziale_Click(object sender, RoutedEventArgs e)
         {
-            g.GiraCarta();
-            SlideCardRight(sender, e);
+            if (g.GiraCarta())
+            {
+                SlideCardRight(sender, e);
+                
+                if (g.MazzoIniziale.Empty)
+                {
+                    imgMazzoInizialeStatica.Visibility = Visibility.Collapsed;
+                    if (!g.ControlloSeCartaAccettabile(g.MazzoDeposito[g.MazzoDeposito.Count-1]))
+                    {
+                        //pagina you lose
+                    }
+                }
+            }
+            else
+            {
+                imgMazzoInizialeStatica.Visibility = Visibility.Collapsed;
+            }
         }
         private void SlideCardRight(object sender, RoutedEventArgs e)
         {
@@ -72,8 +89,12 @@ namespace SolitarioFrankie
                 imgCartaDeposito.Visibility = Visibility.Collapsed;
                 if (cartaDeposito)
                 {
-                    imgCartaInCima.Source = new BitmapImage(new Uri("dwayne.png", UriKind.Relative));
+                    imgCartaInCima.Source = new BitmapImage(new Uri($"{g.CartaInCima}.png", UriKind.Relative));
                     cartaDeposito = false;
+                }
+                else
+                {
+                    imgMazzoDepositoStatica.Source = new BitmapImage(new Uri($"{g.MazzoDeposito[g.MazzoDeposito.Count - 1]}.png", UriKind.Relative));
                 }
             }
         }
@@ -82,8 +103,21 @@ namespace SolitarioFrankie
         {
             if (g.GiocaCarta())
             {
+                imgCartaDeposito.Source = imgMazzoDepositoStatica.Source;
                 SlideCardTopLeft(sender, e);
-                cartaDeposito = true;
+                cartaDeposito = true;        
+                if (!(g.MazzoDeposito.Count == 0))
+                {
+                    imgMazzoDepositoStatica.Source = new BitmapImage(new Uri($"{g.MazzoDeposito[g.MazzoDeposito.Count - 1]}.png", UriKind.Relative));
+                }
+                else
+                {
+                    imgMazzoDepositoStatica.Source = new BitmapImage(new Uri("", UriKind.Relative));
+                }      
+                if (g.MazzoIniziale.Empty && g.MazzoDeposito.Count == 0)
+                {
+                    //pagina you win
+                }
             }
         }
 
@@ -107,8 +141,6 @@ namespace SolitarioFrankie
 
             translateTransform.BeginAnimation(TranslateTransform.XProperty, animation);
             translateTransform.BeginAnimation(TranslateTransform.YProperty, up);
-
         }
-
     }
 }

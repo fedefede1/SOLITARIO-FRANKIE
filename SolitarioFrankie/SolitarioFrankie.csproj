@@ -9,6 +9,47 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="00.png" />
+    <None Remove="01.png" />
+    <None Remove="02.png" />
+    <None Remove="03.png" />
+    <None Remove="10.png" />
+    <None Remove="11.png" />
+    <None Remove="12.png" />
+    <None Remove="13.png" />
+    <None Remove="20.png" />
+    <None Remove="21.png" />
+    <None Remove="22.png" />
+    <None Remove="23.png" />
+    <None Remove="30.png" />
+    <None Remove="31.png" />
+    <None Remove="32.png" />
+    <None Remove="33.png" />
+    <None Remove="40.png" />
+    <None Remove="41.png" />
+    <None Remove="42.png" />
+    <None Remove="43.png" />
+    <None Remove="50.png" />
+    <None Remove="51.png" />
+    <None Remove="52.png" />
+    <None Remove="53.png" />
+    <None Remove="60.png" />
+    <None Remove="61.png" />
+    <None Remove="62.png" />
+    <None Remove="63.png" />
+    <None Remove="70.png" />
+    <None Remove="71.png" />
+    <None Remove="72.png" />
+    <None Remove="73.png" />
+    <None Remove="80.png" />
+    <None Remove="81.png" />
+    <None Remove="82.png" />
+    <None Remove="83.png" />
+    <None Remove="90.png" />
+    <None Remove="91.png" />
+    <None Remove="92.png" />
+    <None Remove="93.png" />
+    <None Remove="CartaGirata.png" />
     <None Remove="dwayne.png" />
     <None Remove="VisualStudio.png" />
   </ItemGroup>
@@ -18,6 +59,47 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="00.png" />
+    <Resource Include="01.png" />
+    <Resource Include="02.png" />
+    <Resource Include="03.png" />
+    <Resource Include="10.png" />
+    <Resource Include="11.png" />
+    <Resource Include="12.png" />
+    <Resource Include="13.png" />
+    <Resource Include="20.png" />
+    <Resource Include="21.png" />
+    <Resource Include="22.png" />
+    <Resource Include="23.png" />
+    <Resource Include="30.png" />
+    <Resource Include="31.png" />
+    <Resource Include="32.png" />
+    <Resource Include="33.png" />
+    <Resource Include="40.png" />
+    <Resource Include="41.png" />
+    <Resource Include="42.png" />
+    <Resource Include="43.png" />
+    <Resource Include="50.png" />
+    <Resource Include="51.png" />
+    <Resource Include="52.png" />
+    <Resource Include="53.png" />
+    <Resource Include="60.png" />
+    <Resource Include="61.png" />
+    <Resource Include="62.png" />
+    <Resource Include="63.png" />
+    <Resource Include="70.png" />
+    <Resource Include="71.png" />
+    <Resource Include="72.png" />
+    <Resource Include="73.png" />
+    <Resource Include="80.png" />
+    <Resource Include="81.png" />
+    <Resource Include="82.png" />
+    <Resource Include="83.png" />
+    <Resource Include="90.png" />
+    <Resource Include="91.png" />
+    <Resource Include="92.png" />
+    <Resource Include="93.png" />
+    <Resource Include="CartaGirata.png" />
     <Resource Include="dwayne.png" />
     <Resource Include="VisualStudio.png" />
   </ItemGroup>

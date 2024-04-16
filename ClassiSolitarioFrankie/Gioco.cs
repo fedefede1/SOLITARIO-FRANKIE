@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http.Headers;
 using System.Text;
 
 namespace ClassiSolitarioFrankie
@@ -49,24 +50,28 @@ namespace ClassiSolitarioFrankie
             }
         }
 
-        public void GiraCarta()
+        public bool GiraCarta()
         {
             try 
             {
                 _mazzoDeposito.Add(_mazzoIniziale.EstraiCarta);
+                return true;
             }
             catch (ArgumentOutOfRangeException)
             {
-                return;
+                return false;
             }
         }
-
+        public bool ControlloSeCartaAccettabile(Carta c)
+        {
+            return (c.SemeCarta == _cartaInCima.SemeCarta || (c.ValoreCarta <= _cartaInCima.ValoreCarta + 1 && c.ValoreCarta >= _cartaInCima.ValoreCarta - 1) || (int)c.ValoreCarta == 1);
+        }
         public bool GiocaCarta()
         {
             try
             {
                 Carta c = _mazzoDeposito[_mazzoDeposito.Count - 1];
-                if (c.SemeCarta == _cartaInCima.SemeCarta || (c.Punteggio <= _cartaInCima.Punteggio + 1 && c.Punteggio >= _cartaInCima.Punteggio - 1) || c.Punteggio == 1)
+                if (ControlloSeCartaAccettabile(c))
                 {
                     _mazzoDeposito.RemoveAt(_mazzoDeposito.Count - 1);
                     _cartaInCima = c;
