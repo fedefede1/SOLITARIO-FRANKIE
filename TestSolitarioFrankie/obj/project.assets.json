@@ -2318,19 +2318,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\aless\\.nuget\\packages\\": {}
+    "C:\\Users\\alessandro.crepaldi\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aless\\OneDrive\\Desktop\\github\\SOLITARIO-FRANKIE\\TestSolitarioFrankie\\TestSolitarioFrankie.csproj",
+      "projectUniqueName": "C:\\Users\\alessandro.crepaldi\\Desktop\\roba git\\SOLITARIO-FRANKIE\\TestSolitarioFrankie\\TestSolitarioFrankie.csproj",
       "projectName": "TestSolitarioFrankie",
-      "projectPath": "C:\\Users\\aless\\OneDrive\\Desktop\\github\\SOLITARIO-FRANKIE\\TestSolitarioFrankie\\TestSolitarioFrankie.csproj",
-      "packagesPath": "C:\\Users\\aless\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aless\\OneDrive\\Desktop\\github\\SOLITARIO-FRANKIE\\TestSolitarioFrankie\\obj\\",
+      "projectPath": "C:\\Users\\alessandro.crepaldi\\Desktop\\roba git\\SOLITARIO-FRANKIE\\TestSolitarioFrankie\\TestSolitarioFrankie.csproj",
+      "packagesPath": "C:\\Users\\alessandro.crepaldi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\alessandro.crepaldi\\Desktop\\roba git\\SOLITARIO-FRANKIE\\TestSolitarioFrankie\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\aless\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\alessandro.crepaldi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2338,14 +2343,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\aless\\OneDrive\\Desktop\\github\\SOLITARIO-FRANKIE\\ClassiSolitarioFrankie\\ClassiSolitarioFrankie.csproj": {
-              "projectPath": "C:\\Users\\aless\\OneDrive\\Desktop\\github\\SOLITARIO-FRANKIE\\ClassiSolitarioFrankie\\ClassiSolitarioFrankie.csproj"
+            "C:\\Users\\alessandro.crepaldi\\Desktop\\roba git\\SOLITARIO-FRANKIE\\ClassiSolitarioFrankie\\ClassiSolitarioFrankie.csproj": {
+              "projectPath": "C:\\Users\\alessandro.crepaldi\\Desktop\\roba git\\SOLITARIO-FRANKIE\\ClassiSolitarioFrankie\\ClassiSolitarioFrankie.csproj"
             }
           }
         }
@@ -2354,6 +2360,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -2393,7 +2404,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

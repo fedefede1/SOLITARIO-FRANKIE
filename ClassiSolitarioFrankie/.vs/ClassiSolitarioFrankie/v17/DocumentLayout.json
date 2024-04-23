@@ -1,0 +1,99 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\alessandro.crepaldi\\Desktop\\roba git\\SOLITARIO-FRANKIE\\ClassiSolitarioFrankie\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3F587623-A5E9-407E-ADB7-AC8213063843}|..\\SolitarioFrankie\\SolitarioFrankie.csproj|c:\\users\\alessandro.crepaldi\\desktop\\roba git\\solitario-frankie\\solitariofrankie\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F587623-A5E9-407E-ADB7-AC8213063843}|..\\SolitarioFrankie\\SolitarioFrankie.csproj|c:\\users\\alessandro.crepaldi\\desktop\\roba git\\solitario-frankie\\solitariofrankie\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{691B1DDD-1514-4618-876E-CEDF53617B3F}|ClassiSolitarioFrankie.csproj|C:\\Users\\alessandro.crepaldi\\Desktop\\roba git\\SOLITARIO-FRANKIE\\ClassiSolitarioFrankie\\gioco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{691B1DDD-1514-4618-876E-CEDF53617B3F}|ClassiSolitarioFrankie.csproj|solutionrelative:gioco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{691B1DDD-1514-4618-876E-CEDF53617B3F}|ClassiSolitarioFrankie.csproj|C:\\Users\\alessandro.crepaldi\\Desktop\\roba git\\SOLITARIO-FRANKIE\\ClassiSolitarioFrankie\\mazzo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{691B1DDD-1514-4618-876E-CEDF53617B3F}|ClassiSolitarioFrankie.csproj|solutionrelative:mazzo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{691B1DDD-1514-4618-876E-CEDF53617B3F}|ClassiSolitarioFrankie.csproj|C:\\Users\\alessandro.crepaldi\\Desktop\\roba git\\SOLITARIO-FRANKIE\\ClassiSolitarioFrankie\\carta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{691B1DDD-1514-4618-876E-CEDF53617B3F}|ClassiSolitarioFrankie.csproj|solutionrelative:carta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Carta.cs",
+              "DocumentMoniker": "C:\\Users\\alessandro.crepaldi\\Desktop\\roba git\\SOLITARIO-FRANKIE\\ClassiSolitarioFrankie\\Carta.cs",
+              "RelativeDocumentMoniker": "Carta.cs",
+              "ToolTip": "C:\\Users\\alessandro.crepaldi\\Desktop\\roba git\\SOLITARIO-FRANKIE\\ClassiSolitarioFrankie\\Carta.cs",
+              "RelativeToolTip": "Carta.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAwwBsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T10:04:44.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Mazzo.cs",
+              "DocumentMoniker": "C:\\Users\\alessandro.crepaldi\\Desktop\\roba git\\SOLITARIO-FRANKIE\\ClassiSolitarioFrankie\\Mazzo.cs",
+              "RelativeDocumentMoniker": "Mazzo.cs",
+              "ToolTip": "C:\\Users\\alessandro.crepaldi\\Desktop\\roba git\\SOLITARIO-FRANKIE\\ClassiSolitarioFrankie\\Mazzo.cs",
+              "RelativeToolTip": "Mazzo.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAmwE0AAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T10:04:44.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Gioco.cs",
+              "DocumentMoniker": "C:\\Users\\alessandro.crepaldi\\Desktop\\roba git\\SOLITARIO-FRANKIE\\ClassiSolitarioFrankie\\Gioco.cs",
+              "RelativeDocumentMoniker": "Gioco.cs",
+              "ToolTip": "C:\\Users\\alessandro.crepaldi\\Desktop\\roba git\\SOLITARIO-FRANKIE\\ClassiSolitarioFrankie\\Gioco.cs",
+              "RelativeToolTip": "Gioco.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAkwEEAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T10:04:44.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\alessandro.crepaldi\\Desktop\\roba git\\SOLITARIO-FRANKIE\\SolitarioFrankie\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "..\\SolitarioFrankie\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\alessandro.crepaldi\\Desktop\\roba git\\SOLITARIO-FRANKIE\\SolitarioFrankie\\MainWindow.xaml",
+              "RelativeToolTip": "..\\SolitarioFrankie\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-23T10:04:44.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\alessandro.crepaldi\\Desktop\\roba git\\SOLITARIO-FRANKIE\\SolitarioFrankie\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "..\\SolitarioFrankie\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\alessandro.crepaldi\\Desktop\\roba git\\SOLITARIO-FRANKIE\\SolitarioFrankie\\MainWindow.xaml.cs",
+              "RelativeToolTip": "..\\SolitarioFrankie\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAFsAAAAAAAAAAAAcwGcAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T10:04:44.742Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

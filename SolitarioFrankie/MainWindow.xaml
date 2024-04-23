@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SolitarioFrankie"
         mc:Ignorable="d"
-        Title="MainWindow" Height="800" Width="450">
+        Title="Solitario Frankie" Height="800" Width="450" ResizeMode="NoResize">
     <Grid>
         <Image x:Name="imgCartaInCima" Margin="152,130,152,0" Height="198" VerticalAlignment="Top" Width="128"/>
         <Image x:Name="imgMazzoInizialeStatica" Margin="32,466,0,0" HorizontalAlignment="Left" Width="128" Height="198" VerticalAlignment="Top" Source="/CartaGirata.png"/>
