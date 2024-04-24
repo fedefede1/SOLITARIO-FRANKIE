@@ -10,3 +10,9 @@ C:\Users\alessandro.crepaldi\Desktop\roba git\SOLITARIO-FRANKIE\ClassiSolitarioF
 C:\Users\alessandro.crepaldi\Desktop\roba git\SOLITARIO-FRANKIE\ClassiSolitarioFrankie\obj\Debug\ClassiSolitarioFrankie.csproj.CoreCompileInputs.cache
 C:\Users\alessandro.crepaldi\Desktop\roba git\SOLITARIO-FRANKIE\ClassiSolitarioFrankie\obj\Debug\ClassiSolitarioFrankie.dll
 C:\Users\alessandro.crepaldi\Desktop\roba git\SOLITARIO-FRANKIE\ClassiSolitarioFrankie\obj\Debug\ClassiSolitarioFrankie.pdb
+C:\Users\alessandro.crepaldi\Desktop\roba di git\SOLITARIO-FRANKIE\ClassiSolitarioFrankie\bin\Debug\ClassiSolitarioFrankie.dll
+C:\Users\alessandro.crepaldi\Desktop\roba di git\SOLITARIO-FRANKIE\ClassiSolitarioFrankie\bin\Debug\ClassiSolitarioFrankie.pdb
+C:\Users\alessandro.crepaldi\Desktop\roba di git\SOLITARIO-FRANKIE\ClassiSolitarioFrankie\obj\Debug\ClassiSolitarioFrankie.csproj.AssemblyReference.cache
+C:\Users\alessandro.crepaldi\Desktop\roba di git\SOLITARIO-FRANKIE\ClassiSolitarioFrankie\obj\Debug\ClassiSolitarioFrankie.csproj.CoreCompileInputs.cache
+C:\Users\alessandro.crepaldi\Desktop\roba di git\SOLITARIO-FRANKIE\ClassiSolitarioFrankie\obj\Debug\ClassiSolitarioFrankie.dll
+C:\Users\alessandro.crepaldi\Desktop\roba di git\SOLITARIO-FRANKIE\ClassiSolitarioFrankie\obj\Debug\ClassiSolitarioFrankie.pdb

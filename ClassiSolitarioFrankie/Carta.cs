@@ -59,7 +59,8 @@ namespace ClassiSolitarioFrankie
 
         public override string ToString()
         {
-            string res = $"{(int)ValoreCarta-1}{(int)SemeCarta-1}";
+            char temp = (char)(64+_semeCarta);
+            string res = $"{(int)ValoreCarta}{temp}";
             return res;
         }
     }
