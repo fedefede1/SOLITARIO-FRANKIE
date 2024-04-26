@@ -82,7 +82,7 @@ namespace ClassiSolitarioFrankie
                 return carta;
             }
         }
-        public void Shift() //testato funziona
+        public void Shift()
         {
             Carta cartaFinale = _carte[_index];
             for (int i = _index + 1; i < _carte.Length; i++)

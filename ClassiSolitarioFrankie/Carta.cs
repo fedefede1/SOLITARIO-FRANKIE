@@ -42,7 +42,7 @@ namespace ClassiSolitarioFrankie
             get { return _valoreCarta; }
             set
             {
-                if ((int)value <= 0 || (int)value > 10) throw new ArgumentException("il valore della carta deve essere tra 1 e 10");
+                if ((int)value <= 0 || (int)value > 10) throw new ArgumentOutOfRangeException("il valore della carta deve essere tra 1 e 10");
                 _valoreCarta = value;
             }
         }
@@ -51,7 +51,7 @@ namespace ClassiSolitarioFrankie
             get { return _semeCarta; }
             set
             {
-                if ((int)value < 1 || (int)value > 4) throw new ArgumentException("seme invalido");
+                if ((int)value < 1 || (int)value > 4) throw new ArgumentOutOfRangeException("seme invalido");
                 _semeCarta = value;
             }
         }

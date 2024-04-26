@@ -1,14 +1,14 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alessandro.crepaldi\\Desktop\\roba di git\\SOLITARIO-FRANKIE\\SolitarioFrankie\\SolitarioFrankie.csproj": {}
+    "C:\\Users\\alessandro.crepaldi\\Desktop\\roba di github\\SOLITARIO-FRANKIE\\SolitarioFrankie\\SolitarioFrankie.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alessandro.crepaldi\\Desktop\\roba di git\\SOLITARIO-FRANKIE\\ClassiSolitarioFrankie\\ClassiSolitarioFrankie.csproj": {
+    "C:\\Users\\alessandro.crepaldi\\Desktop\\roba di github\\SOLITARIO-FRANKIE\\ClassiSolitarioFrankie\\ClassiSolitarioFrankie.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\alessandro.crepaldi\\Desktop\\roba di git\\SOLITARIO-FRANKIE\\ClassiSolitarioFrankie\\ClassiSolitarioFrankie.csproj",
+        "projectUniqueName": "C:\\Users\\alessandro.crepaldi\\Desktop\\roba di github\\SOLITARIO-FRANKIE\\ClassiSolitarioFrankie\\ClassiSolitarioFrankie.csproj",
         "projectName": "ClassiSolitarioFrankie",
-        "projectPath": "C:\\Users\\alessandro.crepaldi\\Desktop\\roba di git\\SOLITARIO-FRANKIE\\ClassiSolitarioFrankie\\ClassiSolitarioFrankie.csproj",
+        "projectPath": "C:\\Users\\alessandro.crepaldi\\Desktop\\roba di github\\SOLITARIO-FRANKIE\\ClassiSolitarioFrankie\\ClassiSolitarioFrankie.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {}
@@ -19,14 +19,14 @@
         "net472": {}
       }
     },
-    "C:\\Users\\alessandro.crepaldi\\Desktop\\roba di git\\SOLITARIO-FRANKIE\\SolitarioFrankie\\SolitarioFrankie.csproj": {
+    "C:\\Users\\alessandro.crepaldi\\Desktop\\roba di github\\SOLITARIO-FRANKIE\\SolitarioFrankie\\SolitarioFrankie.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alessandro.crepaldi\\Desktop\\roba di git\\SOLITARIO-FRANKIE\\SolitarioFrankie\\SolitarioFrankie.csproj",
+        "projectUniqueName": "C:\\Users\\alessandro.crepaldi\\Desktop\\roba di github\\SOLITARIO-FRANKIE\\SolitarioFrankie\\SolitarioFrankie.csproj",
         "projectName": "SolitarioFrankie",
-        "projectPath": "C:\\Users\\alessandro.crepaldi\\Desktop\\roba di git\\SOLITARIO-FRANKIE\\SolitarioFrankie\\SolitarioFrankie.csproj",
+        "projectPath": "C:\\Users\\alessandro.crepaldi\\Desktop\\roba di github\\SOLITARIO-FRANKIE\\SolitarioFrankie\\SolitarioFrankie.csproj",
         "packagesPath": "C:\\Users\\alessandro.crepaldi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alessandro.crepaldi\\Desktop\\roba di git\\SOLITARIO-FRANKIE\\SolitarioFrankie\\obj\\",
+        "outputPath": "C:\\Users\\alessandro.crepaldi\\Desktop\\roba di github\\SOLITARIO-FRANKIE\\SolitarioFrankie\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -48,8 +48,8 @@
           "net7.0-windows7.0": {
             "targetAlias": "net7.0-windows",
             "projectReferences": {
-              "C:\\Users\\alessandro.crepaldi\\Desktop\\roba di git\\SOLITARIO-FRANKIE\\ClassiSolitarioFrankie\\ClassiSolitarioFrankie.csproj": {
-                "projectPath": "C:\\Users\\alessandro.crepaldi\\Desktop\\roba di git\\SOLITARIO-FRANKIE\\ClassiSolitarioFrankie\\ClassiSolitarioFrankie.csproj"
+              "C:\\Users\\alessandro.crepaldi\\Desktop\\roba di github\\SOLITARIO-FRANKIE\\ClassiSolitarioFrankie\\ClassiSolitarioFrankie.csproj": {
+                "projectPath": "C:\\Users\\alessandro.crepaldi\\Desktop\\roba di github\\SOLITARIO-FRANKIE\\ClassiSolitarioFrankie\\ClassiSolitarioFrankie.csproj"
               }
             }
           }

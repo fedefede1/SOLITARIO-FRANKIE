@@ -44,8 +44,10 @@ namespace SolitarioFrankie
 
         private void btnMazzoIniziale_Click(object sender, RoutedEventArgs e)
         {
+            btnMazzoIniziale.IsEnabled = false;
             if (g.GiraCarta())
             {
+                
                 SlideCardRight(sender, e);
                 
                 if (g.MazzoIniziale.Empty)
@@ -60,10 +62,12 @@ namespace SolitarioFrankie
             else
             {
                 imgMazzoInizialeStatica.Visibility = Visibility.Collapsed;
+                btnMazzoIniziale.IsEnabled = true;
             }
         }
         private void SlideCardRight(object sender, RoutedEventArgs e)
         {
+            
             Timer.Start();
             DoubleAnimation animation = new DoubleAnimation();
             animation.From = 0;
@@ -76,7 +80,7 @@ namespace SolitarioFrankie
             imgCarta.RenderTransform = translateTransform;
 
             translateTransform.BeginAnimation(TranslateTransform.XProperty, animation);
-
+            
         }
         void Timer_Tick(object sender, EventArgs e)
         {
@@ -98,6 +102,7 @@ namespace SolitarioFrankie
                 {
                     imgMazzoDepositoStatica.Source = new BitmapImage(new Uri($"{g.MazzoDeposito[g.MazzoDeposito.Count - 1]}.jpg", UriKind.Relative));
                 }
+                btnMazzoIniziale.IsEnabled = true;
             }
         }
 
