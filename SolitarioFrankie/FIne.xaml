@@ -9,9 +9,9 @@
       Title="FIne">
 
     <Grid Background="White">
-        <Label x:Name="lblRisultato" Content="" HorizontalAlignment="Center" Margin="0,382,0,0" VerticalAlignment="Top" Height="158" Width="258" FontSize="48"/>
-        <Button x:Name="btnGiocaAncora" Content="Gioca Ancora" HorizontalAlignment="Left" Margin="35,631,0,0" VerticalAlignment="Top" Height="76" Width="117" Click="btnGiocaAncora_Click"/>
-        <Button x:Name="btnEsci" Content="Esci" HorizontalAlignment="Left" Margin="280,634,0,0" VerticalAlignment="Top" Height="73" Width="117" Click="btnEsci_Click"/>
+        <Label x:Name="lblRisultato" Content="" HorizontalAlignment="Center" Margin="0,111,0,0" VerticalAlignment="Top" Height="411" Width="362" FontSize="72" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Button x:Name="btnGiocaAncora" Content="Gioca Ancora" Margin="35,0,0,93" VerticalAlignment="Bottom" Height="120" Click="btnGiocaAncora_Click" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" Width="170" Background="#FFDDDDDD"/>
+        <Button x:Name="btnEsci" Content="Esci" HorizontalAlignment="Right" Margin="0,0,35,93" VerticalAlignment="Bottom" Height="120" Width="170" Click="btnEsci_Click"/>
 
     </Grid>
 </Page>

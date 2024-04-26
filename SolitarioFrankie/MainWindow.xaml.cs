@@ -20,9 +20,11 @@ namespace SolitarioFrankie
     public partial class MainWindow : Window
     {
         private DispatcherTimer Timer;
+        private DispatcherTimer TimerFinale;
         private int time = 0;
         Gioco g;
         private bool cartaDeposito;
+        private bool vinto;
         public MainWindow()
         {
             InitializeComponent();
@@ -30,6 +32,9 @@ namespace SolitarioFrankie
             Timer = new DispatcherTimer();
             Timer.Interval = new TimeSpan(0, 0, 0, 0, 500);
             Timer.Tick += Timer_Tick;
+            TimerFinale = new DispatcherTimer();
+            TimerFinale.Interval = new TimeSpan(0, 0, 0, 1, 500);
+            TimerFinale.Tick += TimerFinale_Tick;
             cartaDeposito = false;
             InizializzaImmagini();
             Top = 125;
@@ -44,7 +49,7 @@ namespace SolitarioFrankie
 
         private void btnMazzoIniziale_Click(object sender, RoutedEventArgs e)
         {
-            btnMazzoIniziale.IsEnabled = false;
+            //btnMazzoIniziale.IsEnabled = false;
             if (g.GiraCarta())
             {
                 
@@ -55,7 +60,8 @@ namespace SolitarioFrankie
                     imgMazzoInizialeStatica.Visibility = Visibility.Collapsed;
                     if (!g.ControlloSeCartaAccettabile(g.MazzoDeposito[g.MazzoDeposito.Count-1]))
                     {
-                        this.Content = new Fine(false, this);
+                        vinto = false;
+                        TimerFinale.Start();
                     }
                 }
             }
@@ -123,11 +129,13 @@ namespace SolitarioFrankie
                 }
                 if (g.MazzoIniziale.Empty && g.MazzoDeposito.Count == 0)
                 {
-                    this.Content = new Fine(true, this);
+                    vinto = true;
+                    TimerFinale.Start();
                 }
                 else if (g.MazzoIniziale.Empty && !g.ControlloSeCartaAccettabile(g.MazzoDeposito[g.MazzoDeposito.Count - 1]))
                 {
-                    this.Content = new Fine(false, this);
+                    vinto = false;
+                    TimerFinale.Start();
                 }    
             }
         }
@@ -152,6 +160,18 @@ namespace SolitarioFrankie
 
             translateTransform.BeginAnimation(TranslateTransform.XProperty, animation);
             translateTransform.BeginAnimation(TranslateTransform.YProperty, up);
+        }
+        void TimerFinale_Tick(object sender, EventArgs e)
+        {
+            if (time > 0)
+            {
+                time--;
+            }
+            else
+            {
+                TimerFinale.Stop();
+                Content = new Fine(vinto, this);
+            }
         }
     }
 }
