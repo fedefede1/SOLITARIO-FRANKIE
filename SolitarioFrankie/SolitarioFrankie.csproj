@@ -50,6 +50,8 @@
     <None Remove="9C.jpg" />
     <None Remove="9D.jpg" />
     <None Remove="RETRO.jpg" />
+    <None Remove="Sfondo.png" />
+    <None Remove="SfondoConCarte.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -98,6 +100,8 @@
     <Resource Include="9C.jpg" />
     <Resource Include="9D.jpg" />
     <Resource Include="RETRO.jpg" />
+    <Resource Include="Sfondo.png" />
+    <Resource Include="SfondoConCarte.png" />
   </ItemGroup>
 
 </Project>

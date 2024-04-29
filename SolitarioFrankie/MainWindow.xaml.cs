@@ -49,7 +49,7 @@ namespace SolitarioFrankie
 
         private void btnMazzoIniziale_Click(object sender, RoutedEventArgs e)
         {
-            //btnMazzoIniziale.IsEnabled = false;
+            btnMazzoIniziale.IsEnabled = false;
             if (g.GiraCarta())
             {
                 

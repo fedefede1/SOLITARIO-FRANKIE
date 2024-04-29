@@ -16,7 +16,7 @@ using System.Windows.Shapes;
 namespace SolitarioFrankie
 {
     /// <summary>
-    /// Logica di interazione per FIne.xaml
+    /// Logica di interazione per Fine.xaml
     /// </summary>
     public partial class Fine : Page
     {
