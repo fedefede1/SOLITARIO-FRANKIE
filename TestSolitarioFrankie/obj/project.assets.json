@@ -2318,23 +2318,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\alessandro.crepaldi\\.nuget\\packages\\": {},
+    "C:\\Users\\federico.prati\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alessandro.crepaldi\\Desktop\\roba git\\SOLITARIO-FRANKIE\\TestSolitarioFrankie\\TestSolitarioFrankie.csproj",
+      "projectUniqueName": "C:\\Users\\federico.prati\\Desktop\\git add\\SOLITARIO-FRANKIE\\TestSolitarioFrankie\\TestSolitarioFrankie.csproj",
       "projectName": "TestSolitarioFrankie",
-      "projectPath": "C:\\Users\\alessandro.crepaldi\\Desktop\\roba git\\SOLITARIO-FRANKIE\\TestSolitarioFrankie\\TestSolitarioFrankie.csproj",
-      "packagesPath": "C:\\Users\\alessandro.crepaldi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alessandro.crepaldi\\Desktop\\roba git\\SOLITARIO-FRANKIE\\TestSolitarioFrankie\\obj\\",
+      "projectPath": "C:\\Users\\federico.prati\\Desktop\\git add\\SOLITARIO-FRANKIE\\TestSolitarioFrankie\\TestSolitarioFrankie.csproj",
+      "packagesPath": "C:\\Users\\federico.prati\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\federico.prati\\Desktop\\git add\\SOLITARIO-FRANKIE\\TestSolitarioFrankie\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\alessandro.crepaldi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\federico.prati\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2350,8 +2350,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\alessandro.crepaldi\\Desktop\\roba git\\SOLITARIO-FRANKIE\\ClassiSolitarioFrankie\\ClassiSolitarioFrankie.csproj": {
-              "projectPath": "C:\\Users\\alessandro.crepaldi\\Desktop\\roba git\\SOLITARIO-FRANKIE\\ClassiSolitarioFrankie\\ClassiSolitarioFrankie.csproj"
+            "C:\\Users\\federico.prati\\Desktop\\git add\\SOLITARIO-FRANKIE\\ClassiSolitarioFrankie\\ClassiSolitarioFrankie.csproj": {
+              "projectPath": "C:\\Users\\federico.prati\\Desktop\\git add\\SOLITARIO-FRANKIE\\ClassiSolitarioFrankie\\ClassiSolitarioFrankie.csproj"
             }
           }
         }
@@ -2360,11 +2360,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -2404,7 +2399,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.315\\RuntimeIdentifierGraph.json"
       }
     }
   }

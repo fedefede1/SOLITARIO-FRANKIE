@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "SolitarioFrankie/1.0.0": {
+        "dependencies": {
+          "ClassiSolitarioFrankie": "1.0.0"
+        },
+        "runtime": {
+          "SolitarioFrankie.dll": {}
+        }
+      },
+      "ClassiSolitarioFrankie/1.0.0": {
+        "runtime": {
+          "ClassiSolitarioFrankie.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SolitarioFrankie/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ClassiSolitarioFrankie/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

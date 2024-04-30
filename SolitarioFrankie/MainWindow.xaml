@@ -19,3 +19,4 @@
         <Button x:Name="btnMazzoDeposito" Content="Button" Margin="290,466,32,120" Click="btnMazzoDeposito_Click" Opacity="0"/>
     </Grid>
 </Window>
+    

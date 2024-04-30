@@ -1,0 +1,6 @@
+C:\Users\federico.prati\Desktop\git add\SOLITARIO-FRANKIE\ClassiSolitarioFrankie\bin\Release\ClassiSolitarioFrankie.dll
+C:\Users\federico.prati\Desktop\git add\SOLITARIO-FRANKIE\ClassiSolitarioFrankie\bin\Release\ClassiSolitarioFrankie.pdb
+C:\Users\federico.prati\Desktop\git add\SOLITARIO-FRANKIE\ClassiSolitarioFrankie\obj\Release\ClassiSolitarioFrankie.csproj.AssemblyReference.cache
+C:\Users\federico.prati\Desktop\git add\SOLITARIO-FRANKIE\ClassiSolitarioFrankie\obj\Release\ClassiSolitarioFrankie.csproj.CoreCompileInputs.cache
+C:\Users\federico.prati\Desktop\git add\SOLITARIO-FRANKIE\ClassiSolitarioFrankie\obj\Release\ClassiSolitarioFrankie.dll
+C:\Users\federico.prati\Desktop\git add\SOLITARIO-FRANKIE\ClassiSolitarioFrankie\obj\Release\ClassiSolitarioFrankie.pdb
