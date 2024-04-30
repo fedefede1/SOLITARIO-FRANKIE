@@ -109,11 +109,13 @@ namespace SolitarioFrankie
                     imgMazzoDepositoStatica.Source = new BitmapImage(new Uri($"{g.MazzoDeposito[g.MazzoDeposito.Count - 1]}.jpg", UriKind.Relative));
                 }
                 btnMazzoIniziale.IsEnabled = true;
+                btnMazzoDeposito.IsEnabled = true;
             }
         }
 
         private void btnMazzoDeposito_Click(object sender, RoutedEventArgs e)
         {
+            btnMazzoDeposito.IsEnabled = false;
             if (g.GiocaCarta())
             {
                 imgCartaDeposito.Source = imgMazzoDepositoStatica.Source;
@@ -137,6 +139,10 @@ namespace SolitarioFrankie
                     vinto = false;
                     TimerFinale.Start();
                 }    
+            }
+            else
+            {
+                btnMazzoDeposito.IsEnabled = true;
             }
         }
 

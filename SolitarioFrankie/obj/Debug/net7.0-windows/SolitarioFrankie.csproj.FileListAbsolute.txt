@@ -100,3 +100,5 @@ C:\Users\alessandro.crepaldi\Desktop\roba di github\SOLITARIO-FRANKIE\SolitarioF
 C:\Users\alessandro.crepaldi\Desktop\roba di github\SOLITARIO-FRANKIE\SolitarioFrankie\obj\Debug\net7.0-windows\SolitarioFrankie.pdb
 C:\Users\alessandro.crepaldi\Desktop\roba di github\SOLITARIO-FRANKIE\SolitarioFrankie\obj\Debug\net7.0-windows\SolitarioFrankie.genruntimeconfig.cache
 C:\Users\alessandro.crepaldi\Desktop\roba di github\SOLITARIO-FRANKIE\SolitarioFrankie\obj\Debug\net7.0-windows\ref\SolitarioFrankie.dll
+C:\Users\alessandro.crepaldi\Desktop\roba git\SOLITARIO-FRANKIE\SolitarioFrankie\obj\Debug\net7.0-windows\FIne.g.cs
+C:\Users\alessandro.crepaldi\Desktop\roba git\SOLITARIO-FRANKIE\SolitarioFrankie\obj\Debug\net7.0-windows\FIne.baml

@@ -8,7 +8,7 @@
         Title="Solitario Frankie" Height="800" Width="450" ResizeMode="NoResize">
     <Grid>
         <Grid.Background>
-            <ImageBrush ImageSource="/SfondoConCarte.png"/>
+            <ImageBrush ImageSource="/SfondoConCarte1.png"/>
         </Grid.Background>
         <Image x:Name="imgCartaInCima" Margin="152,130,152,0" Height="200" VerticalAlignment="Top" Width="128"/>
         <Image x:Name="imgMazzoInizialeStatica" Margin="32,466,0,0" HorizontalAlignment="Left" Width="128" Height="200" VerticalAlignment="Top" Source="/RETRO.jpg"/>
