@@ -28,6 +28,11 @@ namespace SolitarioFrankie
         public MainWindow()
         {
             InitializeComponent();
+            ImageBrush temp = new ImageBrush();
+            temp.ImageSource = new BitmapImage(new Uri($"..\\..\\..\\Immagini\\Sfondi\\SfondoConCarte1.png", UriKind.Relative));
+            Background = temp;
+            imgMazzoInizialeStatica.Source = new BitmapImage(new Uri($"Immagini\\Carte\\RETRO.jpg", UriKind.Relative));
+            imgCarta.Source = new BitmapImage(new Uri($"Immagini\\Carte\\RETRO.jpg", UriKind.Relative));
             g = new Gioco();
             Timer = new DispatcherTimer();
             Timer.Interval = new TimeSpan(0, 0, 0, 0, 500);
@@ -43,13 +48,13 @@ namespace SolitarioFrankie
 
         public void InizializzaImmagini()
         {
-            imgCartaInCima.Source = new BitmapImage(new Uri($"{g.CartaInCima}.jpg", UriKind.Relative));
-            imgMazzoDepositoStatica.Source = new BitmapImage(new Uri($"{g.MazzoDeposito[0]}.jpg", UriKind.Relative));
+            imgCartaInCima.Source = new BitmapImage(new Uri($"Immagini\\Carte\\{g.CartaInCima}.jpg", UriKind.Relative));
+            imgMazzoDepositoStatica.Source = new BitmapImage(new Uri($"Immagini\\Carte\\{g.MazzoDeposito[0]}.jpg", UriKind.Relative));
         }
 
         private void btnMazzoIniziale_Click(object sender, RoutedEventArgs e)
         {
-            btnMazzoIniziale.IsEnabled = false;
+            //btnMazzoIniziale.IsEnabled = false;
             if (g.GiraCarta())
             {
                 
@@ -101,12 +106,12 @@ namespace SolitarioFrankie
                 imgCartaDeposito.Visibility = Visibility.Collapsed;
                 if (cartaDeposito)
                 {
-                    imgCartaInCima.Source = new BitmapImage(new Uri($"{g.CartaInCima}.jpg", UriKind.Relative));
+                    imgCartaInCima.Source = new BitmapImage(new Uri($"Immagini\\Carte\\{g.CartaInCima}.jpg", UriKind.Relative));
                     cartaDeposito = false;
                 }
                 else
                 {
-                    imgMazzoDepositoStatica.Source = new BitmapImage(new Uri($"{g.MazzoDeposito[g.MazzoDeposito.Count - 1]}.jpg", UriKind.Relative));
+                    imgMazzoDepositoStatica.Source = new BitmapImage(new Uri($"Immagini\\Carte\\{g.MazzoDeposito[g.MazzoDeposito.Count - 1]}.jpg", UriKind.Relative));
                 }
                 btnMazzoIniziale.IsEnabled = true;
                 btnMazzoDeposito.IsEnabled = true;
@@ -123,7 +128,7 @@ namespace SolitarioFrankie
                 cartaDeposito = true;        
                 if (!(g.MazzoDeposito.Count == 0))
                 {
-                    imgMazzoDepositoStatica.Source = new BitmapImage(new Uri($"{g.MazzoDeposito[g.MazzoDeposito.Count - 1]}.jpg", UriKind.Relative));
+                    imgMazzoDepositoStatica.Source = new BitmapImage(new Uri($"Immagini\\Carte\\{g.MazzoDeposito[g.MazzoDeposito.Count - 1]}.jpg", UriKind.Relative));
                 }
                 else
                 {

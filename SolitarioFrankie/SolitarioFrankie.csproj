@@ -49,10 +49,7 @@
     <None Remove="9B.jpg" />
     <None Remove="9C.jpg" />
     <None Remove="9D.jpg" />
-    <None Remove="RETRO.jpg" />
-    <None Remove="Sfondo.png" />
     <None Remove="SfondoConCarte.png" />
-    <None Remove="SfondoConCarte1.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -60,49 +57,49 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="10A.jpg" />
-    <Resource Include="10B.jpg" />
-    <Resource Include="10C.jpg" />
-    <Resource Include="10D.jpg" />
-    <Resource Include="1A.jpg" />
-    <Resource Include="1B.jpg" />
-    <Resource Include="1C.jpg" />
-    <Resource Include="1D.jpg" />
-    <Resource Include="2A.jpg" />
-    <Resource Include="2B.jpg" />
-    <Resource Include="2C.jpg" />
-    <Resource Include="2D.jpg" />
-    <Resource Include="3A.jpg" />
-    <Resource Include="3B.jpg" />
-    <Resource Include="3C.jpg" />
-    <Resource Include="3D.jpg" />
-    <Resource Include="4A.jpg" />
-    <Resource Include="4B.jpg" />
-    <Resource Include="4C.jpg" />
-    <Resource Include="4D.jpg" />
-    <Resource Include="5A.jpg" />
-    <Resource Include="5B.jpg" />
-    <Resource Include="5C.jpg" />
-    <Resource Include="5D.jpg" />
-    <Resource Include="6A.jpg" />
-    <Resource Include="6B.jpg" />
-    <Resource Include="6C.jpg" />
-    <Resource Include="6D.jpg" />
-    <Resource Include="7A.jpg" />
-    <Resource Include="7B.jpg" />
-    <Resource Include="7C.jpg" />
-    <Resource Include="7D.jpg" />
-    <Resource Include="8A.jpg" />
-    <Resource Include="8B.jpg" />
-    <Resource Include="8C.jpg" />
-    <Resource Include="8D.jpg" />
-    <Resource Include="9A.jpg" />
-    <Resource Include="9B.jpg" />
-    <Resource Include="9C.jpg" />
-    <Resource Include="9D.jpg" />
-    <Resource Include="RETRO.jpg" />
-    <Resource Include="Sfondo.png" />
-    <Resource Include="SfondoConCarte1.png" />
+    <Resource Include="Immagini\Carte\10A.jpg" />
+    <Resource Include="Immagini\Carte\10B.jpg" />
+    <Resource Include="Immagini\Carte\10C.jpg" />
+    <Resource Include="Immagini\Carte\10D.jpg" />
+    <Resource Include="Immagini\Carte\1A.jpg" />
+    <Resource Include="Immagini\Carte\1B.jpg" />
+    <Resource Include="Immagini\Carte\1C.jpg" />
+    <Resource Include="Immagini\Carte\1D.jpg" />
+    <Resource Include="Immagini\Carte\2A.jpg" />
+    <Resource Include="Immagini\Carte\2B.jpg" />
+    <Resource Include="Immagini\Carte\2C.jpg" />
+    <Resource Include="Immagini\Carte\2D.jpg" />
+    <Resource Include="Immagini\Carte\3A.jpg" />
+    <Resource Include="Immagini\Carte\3B.jpg" />
+    <Resource Include="Immagini\Carte\3C.jpg" />
+    <Resource Include="Immagini\Carte\3D.jpg" />
+    <Resource Include="Immagini\Carte\4A.jpg" />
+    <Resource Include="Immagini\Carte\4B.jpg" />
+    <Resource Include="Immagini\Carte\4C.jpg" />
+    <Resource Include="Immagini\Carte\4D.jpg" />
+    <Resource Include="Immagini\Carte\5A.jpg" />
+    <Resource Include="Immagini\Carte\5B.jpg" />
+    <Resource Include="Immagini\Carte\5C.jpg" />
+    <Resource Include="Immagini\Carte\5D.jpg" />
+    <Resource Include="Immagini\Carte\6A.jpg" />
+    <Resource Include="Immagini\Carte\6B.jpg" />
+    <Resource Include="Immagini\Carte\6C.jpg" />
+    <Resource Include="Immagini\Carte\6D.jpg" />
+    <Resource Include="Immagini\Carte\7A.jpg" />
+    <Resource Include="Immagini\Carte\7B.jpg" />
+    <Resource Include="Immagini\Carte\7C.jpg" />
+    <Resource Include="Immagini\Carte\7D.jpg" />
+    <Resource Include="Immagini\Carte\8A.jpg" />
+    <Resource Include="Immagini\Carte\8B.jpg" />
+    <Resource Include="Immagini\Carte\8C.jpg" />
+    <Resource Include="Immagini\Carte\8D.jpg" />
+    <Resource Include="Immagini\Carte\9A.jpg" />
+    <Resource Include="Immagini\Carte\9B.jpg" />
+    <Resource Include="Immagini\Carte\9C.jpg" />
+    <Resource Include="Immagini\Carte\9D.jpg" />
+    <Resource Include="Immagini\Carte\RETRO.jpg" />
+    <Resource Include="Immagini\Sfondi\Sfondo.png" />
+    <Resource Include="Immagini\Sfondi\SfondoConCarte1.png" />
   </ItemGroup>
 
 </Project>

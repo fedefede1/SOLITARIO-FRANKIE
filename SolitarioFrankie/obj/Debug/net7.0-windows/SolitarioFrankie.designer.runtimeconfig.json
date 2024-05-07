@@ -12,11 +12,12 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\federico.prati\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\federico.prati\\.nuget\\packages",
+      "C:\\Users\\alessandro.crepaldi\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\alessandro.crepaldi\\.nuget\\packages",
       "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
     ],
     "configProperties": {
+      "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": true,
       "Microsoft.NETCore.DotNetHostPolicy.SetAppPaths": true
     }
   }

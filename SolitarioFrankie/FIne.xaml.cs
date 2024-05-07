@@ -9,6 +9,7 @@ using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
+using System.Windows.Media.Animation;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
@@ -24,7 +25,10 @@ namespace SolitarioFrankie
         public Fine(bool vinto, MainWindow window)
         {
             InitializeComponent();
-            if(vinto)
+            ImageBrush temp = new ImageBrush();
+            temp.ImageSource = new BitmapImage(new Uri($"..\\..\\..\\Immagini\\Sfondi\\Sfondo.png", UriKind.Relative));
+            Background = temp;
+            if (vinto)
             {
                 lblRisultato.Content = "Hai Vinto";
             }
@@ -45,6 +49,30 @@ namespace SolitarioFrankie
             MainWindow temp = new MainWindow();
             temp.Show();
             window.Close();
+        }
+
+        private void btnAnimazione_MouseEnter(object sender, MouseEventArgs e)
+        {
+            
+            Button button = sender as Button;
+            DoubleAnimation WidthAnimation = new DoubleAnimation() { To = 180, Duration = TimeSpan.FromSeconds(0.3) };
+            DoubleAnimation HeightAnimation = new DoubleAnimation() { To = 130, Duration = TimeSpan.FromSeconds(0.3) };
+
+            button.BeginAnimation(WidthProperty, WidthAnimation);
+            button.BeginAnimation(HeightProperty, HeightAnimation);
+            
+        }
+
+        private void btnAnimazione_MouseLeave(object sender, MouseEventArgs e)
+        {
+            
+            Button button = sender as Button;
+            DoubleAnimation WidthAnimation = new DoubleAnimation() { To = 170, Duration = TimeSpan.FromSeconds(0.3) };
+            DoubleAnimation HeightAnimation = new DoubleAnimation() { To = 120, Duration = TimeSpan.FromSeconds(0.3) };
+
+            button.BeginAnimation(WidthProperty, WidthAnimation);
+            button.BeginAnimation(HeightProperty, HeightAnimation);
+            
         }
     }
 }

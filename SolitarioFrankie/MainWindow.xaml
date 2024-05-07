@@ -7,13 +7,10 @@
         mc:Ignorable="d"
         Title="Solitario Frankie" Height="800" Width="450" ResizeMode="NoResize">
     <Grid>
-        <Grid.Background>
-            <ImageBrush ImageSource="/SfondoConCarte1.png"/>
-        </Grid.Background>
         <Image x:Name="imgCartaInCima" Margin="152,130,152,0" Height="200" VerticalAlignment="Top" Width="128"/>
-        <Image x:Name="imgMazzoInizialeStatica" Margin="32,466,0,0" HorizontalAlignment="Left" Width="128" Height="200" VerticalAlignment="Top" Source="/RETRO.jpg"/>
+        <Image x:Name="imgMazzoInizialeStatica" Margin="32,466,0,0" HorizontalAlignment="Left" Width="128" Height="200" VerticalAlignment="Top" />
         <Image x:Name="imgMazzoDepositoStatica" HorizontalAlignment="Left" Height="200" Margin="272,466,0,0" VerticalAlignment="Top" Width="128"/>
-        <Image x:Name="imgCarta" Visibility="Visible" Height="200" Margin="32,466,0,0" VerticalAlignment="Top" Source="/RETRO.jpg" HorizontalAlignment="Left" Width="128"/>
+        <Image x:Name="imgCarta" Visibility="Visible" Height="200" Margin="32,466,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="128"/>
         <Image x:Name="imgCartaDeposito" Visibility="Visible" HorizontalAlignment="Left" Height="200" Margin="272,466,0,0" VerticalAlignment="Top" Width="128"/>
         <Button x:Name="btnMazzoIniziale" Content="Button" Margin="32,466,290,120" Click="btnMazzoIniziale_Click" Opacity="0"/>
         <Button x:Name="btnMazzoDeposito" Content="Button" Margin="290,466,32,120" Click="btnMazzoDeposito_Click" Opacity="0"/>
