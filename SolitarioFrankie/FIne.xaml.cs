@@ -55,8 +55,8 @@ namespace SolitarioFrankie
         {
             
             Button button = sender as Button;
-            DoubleAnimation WidthAnimation = new DoubleAnimation() { To = 180, Duration = TimeSpan.FromSeconds(0.3) };
-            DoubleAnimation HeightAnimation = new DoubleAnimation() { To = 130, Duration = TimeSpan.FromSeconds(0.3) };
+            DoubleAnimation WidthAnimation = new DoubleAnimation() { To = 180, Duration = TimeSpan.FromSeconds(0.15) };
+            DoubleAnimation HeightAnimation = new DoubleAnimation() { To = 130, Duration = TimeSpan.FromSeconds(0.15) };
 
             button.BeginAnimation(WidthProperty, WidthAnimation);
             button.BeginAnimation(HeightProperty, HeightAnimation);
@@ -67,8 +67,8 @@ namespace SolitarioFrankie
         {
             
             Button button = sender as Button;
-            DoubleAnimation WidthAnimation = new DoubleAnimation() { To = 170, Duration = TimeSpan.FromSeconds(0.3) };
-            DoubleAnimation HeightAnimation = new DoubleAnimation() { To = 120, Duration = TimeSpan.FromSeconds(0.3) };
+            DoubleAnimation WidthAnimation = new DoubleAnimation() { To = 170, Duration = TimeSpan.FromSeconds(0.15) };
+            DoubleAnimation HeightAnimation = new DoubleAnimation() { To = 120, Duration = TimeSpan.FromSeconds(0.15) };
 
             button.BeginAnimation(WidthProperty, WidthAnimation);
             button.BeginAnimation(HeightProperty, HeightAnimation);
