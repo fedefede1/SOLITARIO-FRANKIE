@@ -152,6 +152,16 @@ namespace SolitarioFrankie
             {
                 btnMazzoIniziale.IsEnabled = true;
                 btnMazzoDeposito.IsEnabled = true;
+                DoubleAnimation animationX = new DoubleAnimation();
+                animationX.From = 0; 
+                animationX.To = 10; 
+                animationX.Duration = TimeSpan.FromSeconds(0.05); 
+
+                animationX.AutoReverse = true;
+
+                animationX.RepeatBehavior = new RepeatBehavior(2);
+
+                shakeImage.BeginAnimation(TranslateTransform.XProperty, animationX);
             }
         }
 
