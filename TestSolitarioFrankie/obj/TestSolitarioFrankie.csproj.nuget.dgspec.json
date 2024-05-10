@@ -1,14 +1,14 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alessandro.crepaldi\\Desktop\\roba git\\SOLITARIO-FRANKIE\\TestSolitarioFrankie\\TestSolitarioFrankie.csproj": {}
+    "C:\\Users\\alessandro.crepaldi\\Desktop\\roba di github\\SOLITARIO-FRANKIE\\TestSolitarioFrankie\\TestSolitarioFrankie.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alessandro.crepaldi\\Desktop\\roba git\\SOLITARIO-FRANKIE\\ClassiSolitarioFrankie\\ClassiSolitarioFrankie.csproj": {
+    "C:\\Users\\alessandro.crepaldi\\Desktop\\roba di github\\SOLITARIO-FRANKIE\\ClassiSolitarioFrankie\\ClassiSolitarioFrankie.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\alessandro.crepaldi\\Desktop\\roba git\\SOLITARIO-FRANKIE\\ClassiSolitarioFrankie\\ClassiSolitarioFrankie.csproj",
+        "projectUniqueName": "C:\\Users\\alessandro.crepaldi\\Desktop\\roba di github\\SOLITARIO-FRANKIE\\ClassiSolitarioFrankie\\ClassiSolitarioFrankie.csproj",
         "projectName": "ClassiSolitarioFrankie",
-        "projectPath": "C:\\Users\\alessandro.crepaldi\\Desktop\\roba git\\SOLITARIO-FRANKIE\\ClassiSolitarioFrankie\\ClassiSolitarioFrankie.csproj",
+        "projectPath": "C:\\Users\\alessandro.crepaldi\\Desktop\\roba di github\\SOLITARIO-FRANKIE\\ClassiSolitarioFrankie\\ClassiSolitarioFrankie.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {}
@@ -19,14 +19,14 @@
         "net472": {}
       }
     },
-    "C:\\Users\\alessandro.crepaldi\\Desktop\\roba git\\SOLITARIO-FRANKIE\\TestSolitarioFrankie\\TestSolitarioFrankie.csproj": {
+    "C:\\Users\\alessandro.crepaldi\\Desktop\\roba di github\\SOLITARIO-FRANKIE\\TestSolitarioFrankie\\TestSolitarioFrankie.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alessandro.crepaldi\\Desktop\\roba git\\SOLITARIO-FRANKIE\\TestSolitarioFrankie\\TestSolitarioFrankie.csproj",
+        "projectUniqueName": "C:\\Users\\alessandro.crepaldi\\Desktop\\roba di github\\SOLITARIO-FRANKIE\\TestSolitarioFrankie\\TestSolitarioFrankie.csproj",
         "projectName": "TestSolitarioFrankie",
-        "projectPath": "C:\\Users\\alessandro.crepaldi\\Desktop\\roba git\\SOLITARIO-FRANKIE\\TestSolitarioFrankie\\TestSolitarioFrankie.csproj",
+        "projectPath": "C:\\Users\\alessandro.crepaldi\\Desktop\\roba di github\\SOLITARIO-FRANKIE\\TestSolitarioFrankie\\TestSolitarioFrankie.csproj",
         "packagesPath": "C:\\Users\\alessandro.crepaldi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alessandro.crepaldi\\Desktop\\roba git\\SOLITARIO-FRANKIE\\TestSolitarioFrankie\\obj\\",
+        "outputPath": "C:\\Users\\alessandro.crepaldi\\Desktop\\roba di github\\SOLITARIO-FRANKIE\\TestSolitarioFrankie\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -48,8 +48,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\alessandro.crepaldi\\Desktop\\roba git\\SOLITARIO-FRANKIE\\ClassiSolitarioFrankie\\ClassiSolitarioFrankie.csproj": {
-                "projectPath": "C:\\Users\\alessandro.crepaldi\\Desktop\\roba git\\SOLITARIO-FRANKIE\\ClassiSolitarioFrankie\\ClassiSolitarioFrankie.csproj"
+              "C:\\Users\\alessandro.crepaldi\\Desktop\\roba di github\\SOLITARIO-FRANKIE\\ClassiSolitarioFrankie\\ClassiSolitarioFrankie.csproj": {
+                "projectPath": "C:\\Users\\alessandro.crepaldi\\Desktop\\roba di github\\SOLITARIO-FRANKIE\\ClassiSolitarioFrankie\\ClassiSolitarioFrankie.csproj"
               }
             }
           }
@@ -58,11 +58,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -102,7 +97,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.315\\RuntimeIdentifierGraph.json"
         }
       }
     }

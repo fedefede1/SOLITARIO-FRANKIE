@@ -54,7 +54,8 @@ namespace SolitarioFrankie
 
         private void btnMazzoIniziale_Click(object sender, RoutedEventArgs e)
         {
-            //btnMazzoIniziale.IsEnabled = false;
+            btnMazzoIniziale.IsEnabled = false;
+            btnMazzoDeposito.IsEnabled = false;
             if (g.GiraCarta())
             {
                 
@@ -74,6 +75,7 @@ namespace SolitarioFrankie
             {
                 imgMazzoInizialeStatica.Visibility = Visibility.Collapsed;
                 btnMazzoIniziale.IsEnabled = true;
+                btnMazzoDeposito.IsEnabled=true;
             }
         }
         private void SlideCardRight(object sender, RoutedEventArgs e)
@@ -121,6 +123,7 @@ namespace SolitarioFrankie
         private void btnMazzoDeposito_Click(object sender, RoutedEventArgs e)
         {
             btnMazzoDeposito.IsEnabled = false;
+            btnMazzoIniziale.IsEnabled = false;
             if (g.GiocaCarta())
             {
                 imgCartaDeposito.Source = imgMazzoDepositoStatica.Source;
@@ -147,6 +150,7 @@ namespace SolitarioFrankie
             }
             else
             {
+                btnMazzoIniziale.IsEnabled = true;
                 btnMazzoDeposito.IsEnabled = true;
             }
         }
