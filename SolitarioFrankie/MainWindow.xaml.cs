@@ -29,7 +29,6 @@ namespace SolitarioFrankie
         {
             InitializeComponent();
             ImageBrush temp = new ImageBrush();
-            temp.ImageSource = new BitmapImage(new Uri($"..\\..\\..\\Immagini\\Sfondi\\SfondoConCarte1.png", UriKind.Relative));
             Background = temp;
             imgMazzoInizialeStatica.Source = new BitmapImage(new Uri($"Immagini\\Carte\\RETRO.jpg", UriKind.Relative));
             imgCarta.Source = new BitmapImage(new Uri($"Immagini\\Carte\\RETRO.jpg", UriKind.Relative));

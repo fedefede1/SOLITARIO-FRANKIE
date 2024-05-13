@@ -26,7 +26,6 @@ namespace SolitarioFrankie
         {
             InitializeComponent();
             ImageBrush temp = new ImageBrush();
-            temp.ImageSource = new BitmapImage(new Uri($"..\\..\\..\\Immagini\\Sfondi\\Sfondo.png", UriKind.Relative));
             Background = temp;
             if (vinto)
             {

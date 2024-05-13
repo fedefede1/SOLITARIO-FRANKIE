@@ -24,6 +24,9 @@
      </Page.Resources>
 
     <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Sfondo.png"/>
+        </Grid.Background>
         <Label x:Name="lblRisultato" HorizontalAlignment="Center" Margin="0,111,0,0" VerticalAlignment="Top" Height="411" Width="362" FontSize="72" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Foreground="White" />
         <Button x:Name="btnGiocaAncora"  Style="{StaticResource RoundedButtonStyle}" Content=" Gioca&#xD;&#xA;Ancora" Margin="35,0,0,93" VerticalAlignment="Bottom" Height="120" Click="btnGiocaAncora_Click" Background="#FF00819C" Width="170" FontSize="36" Foreground="White" Grid.Column="0" HorizontalAlignment="Left" MouseEnter="btnAnimazione_MouseEnter" MouseLeave="btnAnimazione_MouseLeave"/>
         <Button x:Name="btnEsci" Content="Esci" Style="{StaticResource RoundedButtonStyle}" HorizontalAlignment="Right" Margin="0,0,35,93" VerticalAlignment="Bottom" Height="120" Width="170" Click="btnEsci_Click" Background="#FF00819C" Foreground="White" FontSize="36" MouseEnter="btnAnimazione_MouseEnter" MouseLeave="btnAnimazione_MouseLeave"/>
