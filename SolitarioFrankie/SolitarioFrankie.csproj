@@ -49,6 +49,7 @@
     <None Remove="9B.jpg" />
     <None Remove="9C.jpg" />
     <None Remove="9D.jpg" />
+    <None Remove="infomablu2.png" />
     <None Remove="Sfondo.png" />
     <None Remove="SfondoConCarte.png" />
     <None Remove="SfondoConCarte1.png" />
@@ -102,6 +103,7 @@
     <Resource Include="Immagini\Carte\RETRO.jpg" />
     <Resource Include="Immagini\Sfondi\Sfondo.png" />
     <Resource Include="Immagini\Sfondi\SfondoConCarte1.png" />
+    <Resource Include="infomablu2.png" />
     <Resource Include="Sfondo.png" />
     <Resource Include="SfondoConCarte1.png" />
   </ItemGroup>

@@ -21,6 +21,16 @@
         <Image x:Name="imgCartaDeposito" Visibility="Visible" HorizontalAlignment="Left" Height="200" Margin="272,466,0,0" VerticalAlignment="Top" Width="128"/>
         <Button x:Name="btnMazzoIniziale" Content="Button" Margin="32,466,290,120" Click="btnMazzoIniziale_Click" Opacity="0"/>
         <Button x:Name="btnMazzoDeposito" Content="Button" Margin="290,466,32,120" Click="btnMazzoDeposito_Click" Opacity="0"/>
+        <Button x:Name="btnIstruzioni" HorizontalAlignment="Left" VerticalAlignment="Top" Height="70" Width="70" BorderBrush="#00707070" Margin="363,23,0,0" Click="btnIstruzioni_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/infomablu2.png"/>
+            </Button.Background>
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="500"/>
+                </Style>
+            </Button.Resources>
+        </Button>
     </Grid>
 </Window>
     

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lgMB2tDKD1YfQLMxIxBh9WmjJvwqyOKr4+VwicdOMZYDjjTBqS5fBMOOo7R/Y5lQdLzRsTFZ9vuZKAF0q7XQxQ==",
+  "dgSpecHash": "W5Bvskby/d4jUEt63+gAzGDYUXPY5Sl8OoQjK90S4dilxsU2W5CfIldmliDhS7y0lTYWSWwdelb+FSvOlCdgGA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\alessandro.crepaldi\\Desktop\\roba git\\SOLITARIO-FRANKIE\\TestSolitarioFrankie\\TestSolitarioFrankie.csproj",
+  "projectFilePath": "C:\\Users\\alessandro.crepaldi\\Desktop\\gitab\\SOLITARIO-FRANKIE\\TestSolitarioFrankie\\TestSolitarioFrankie.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alessandro.crepaldi\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "C:\\Users\\alessandro.crepaldi\\.nuget\\packages\\microsoft.codecoverage\\17.5.0\\microsoft.codecoverage.17.5.0.nupkg.sha512",
