@@ -31,9 +31,6 @@ Il gioco si conclude quando tutte le carte del mazzo iniziale sono finite, nel c
 
 
 ## Link
--Documento delle analisi-
-https://docs.google.com/document/d/15DWJB9NII44j44seTaLyWxkvCuoQ7ZnQxdqplWAAroc/edit?usp=sharing
-
 -Mockup-
 https://www.figma.com/design/gvhZaLqqUU3MxEOc1zMv1J/Mockup-Solitario-Frankie?node-id=0-1
 
